@@ -883,6 +883,7 @@ width: 100%;
 }
 .inpt {
   background: 0 0;
+  color: white;
   border: 1px solid rgba(256, 256, 256, 0.3);
   border-radius: 5px;
   line-height: 1.2;
