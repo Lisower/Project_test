@@ -876,6 +876,7 @@ width: 100%;
   color: white;
 }
 #forma {
+  color: white;
   width: 480px;
   max-width: 100%;
   margin-left: auto;
@@ -894,6 +895,7 @@ width: 100%;
   margin-bottom: 7px;
 }
 .form textarea {
+  color: white;
   background: 0 0;
   border: 1px solid rgba(256, 256, 256, 0.3);
   border-radius: 5px;
