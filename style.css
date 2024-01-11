@@ -89,6 +89,9 @@
     display: block;
   }
 
+  .dropdown-content:hover{
+    display: block;
+  }
 
   /*Header*/
   .nomberru{
@@ -165,6 +168,7 @@
   font-weight: 200;
  }
  .header_button {
+  cursor: pointer;
   display: block;
   background-color: transparent;
   color: #fff;
