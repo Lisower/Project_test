@@ -137,7 +137,7 @@ formElem.onsubmit = async (e) => {
     });
     formElem.reset();
     alert("Данные отправлены!");
-    download();
+    await download();
 }
 
 function download(){
