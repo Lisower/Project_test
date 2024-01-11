@@ -4,7 +4,7 @@
 .FAQ h5.active{
   color:red;
 }
-.FAQ_element{
+.FAQ .col-md-12{
   border: 3px solid red;
 }
 
