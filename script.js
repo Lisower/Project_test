@@ -139,21 +139,6 @@ formElem.onsubmit = async (e) => {
     alert("Данные отправлены!");
     await download();
 }
-
-const formElem_modal = document.querySelector("#forma_modal");
-
-formElem_modal.onsubmit = async (e) => {
-    e.preventDefault();
-    await download();
-    let response = await fetch('https://formcarry.com/s/jDSMpRR850', {
-        method: 'POST',
-        body: new FormData_modal(formElem_modal)
-    });
-    formElem_modal.reset();
-    alert("Данные отправлены!");
-    await download();
-}
-
 function download(){
   load = document.getElementById("loading-animation");
   popup = document.getElementsByClassName("popup");
