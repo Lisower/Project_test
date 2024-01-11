@@ -135,7 +135,7 @@ formElem.onsubmit = async (e) => {
         method: 'POST',
         body: new FormData(formElem)
     });
-    download();
+    downloadы();
     formElem.reset();
     alert("Данные отправлены!");
 }
