@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 /*Fetch*/
-const formElem = document.querySelector("#forma");
+const formElem = document.querySelector(".forma");
 
 formElem.onsubmit = async (e) => {
     e.preventDefault();
