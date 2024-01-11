@@ -140,16 +140,16 @@ formElem.onsubmit = async (e) => {
     await download();
 }
 
-const formElem = document.querySelector("#forma_modal");
+const formElem_modal = document.querySelector("#forma_modal");
 
-formElem.onsubmit = async (e) => {
+formElem_modal.onsubmit = async (e) => {
     e.preventDefault();
     await download();
     let response = await fetch('https://formcarry.com/s/jDSMpRR850', {
         method: 'POST',
-        body: new FormData(formElem)
+        body: new FormData(formElem_modal)
     });
-    formElem.reset();
+    formElem_modal.reset();
     alert("Данные отправлены!");
     await download();
 }
