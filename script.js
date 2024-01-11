@@ -106,12 +106,12 @@ function aa(p){
 }
 
 p = 0, pl = $('.aa > div').length - 1;
-$('.b2').on('click', function(){
+$('.b1').on('click', function(){
     if(p == 0) p = pl;
     else p--;
     aa(p);
 });
-$('.b1').on('click', function(){
+$('.b2').on('click', function(){
 
     if(p == pl) p = 0;
     else p++;
