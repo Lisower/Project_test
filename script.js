@@ -147,7 +147,7 @@ formElem_modal.onsubmit = async (e) => {
     await download();
     let response = await fetch('https://formcarry.com/s/jDSMpRR850', {
         method: 'POST',
-        body: new FormData(formElem_modal)
+        body: new FormData_modal(formElem_modal)
     });
     formElem_modal.reset();
     alert("Данные отправлены!");
