@@ -19,6 +19,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Проект</title>
     <link rel="icon" href="img/D-flying.svg">
   </head>
@@ -463,7 +465,7 @@
                       </div>
                       <div class="pb-4 tariff-footer">
                         <a
-                          href="#footer"
+                          id="open-modal-btn"
                           class="py-3 btn btn-itd text-uppercase"
                           >Оставить заявку</a
                         >
@@ -494,7 +496,7 @@
                       </div>
                       <div class="pb-4 tariff-footer">
                         <a
-                          href="#footer"
+                          id="open-modal-btn1"
                           class="py-3 btn btn-itd text-uppercase"
                           >Оставить заявку</a
                         >
@@ -525,7 +527,7 @@
                       </div>
                       <div class="pb-4 tariff-footer">
                         <a
-                          href="#footer"
+                          id="open-modal-btn2"
                           class="py-3 btn btn-itd text-uppercase"
                           >Оставить заявку</a
                         >
@@ -1225,5 +1227,80 @@
         <script src="script.js"></script>
       </div>
     </div>
+    <!--модалка-->
+    <div class="modal" id="my-modal">
+      <div class="modal__box">
+          <button class="modal__close-btn" id="close-my-modal-btn">
+              <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                      fill="#333333" />
+                  <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+              </svg>
+          </button>
+          <form
+                  method="POST"
+                  action="https://formcarry.com/s/jDSMpRR850"
+                  accept-charset="UTF-8"
+                  id="forma"
+                >
+                  <div>
+                    <div>
+                      <input
+                        class="inpt"
+                        type="text"
+                        name="fio"
+                        id="fio"
+                        title="Заполните это поле"
+                        placeholder="Ваше имя"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        class="inpt"
+                        type="tel"
+                        name="tel"
+                        id="tel"
+                        title="Заполните это поле"
+                        placeholder="Телефон"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        class="inpt"
+                        type="email"
+                        name="email"
+                        id="email"
+                        title="Заполните это поле"
+                        placeholder="E-mail"
+                      />
+                    </div>
+                    <div>
+                      <label class="checkpolit">
+                        <input
+                          type="checkbox"
+                          name="polit"
+                          id="polit"
+                        />
+                        <div>
+                          <div></div>
+                        </div>
+                        Отправляя заявку, я даю согласие на
+                        <a href=""> обработку своих персональных данных.* </a>
+                      </label>
+                    </div>
+                    <div
+                      class="g-recaptcha"
+                      data-sitekey="6LeLxjIpAAAAAMWW79_2pMO4P4o9W6NKWZZHo_sz"
+                    ></div>
+                    <div class="butt">
+                      <button type="submit">СВЯЖИТЕСЬ С НАМИ</button>
+                    </div>
+                  </div>
+                </form>
+      </div>
+    </div>
+
+    <script defer src="js/index.js"></script>
+    
   </body>
 </html>
