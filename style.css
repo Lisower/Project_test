@@ -1,3 +1,13 @@
+.FAQ h5{
+  cursor:pointer;
+}
+.FAQ h5.active{
+  color:red;
+}
+.FAQ col-md-12{
+  border: 3px red solid;
+}
+
 .popup{
   position:fixed;
   top:0px;
