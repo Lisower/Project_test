@@ -130,15 +130,13 @@ const formElem = document.querySelector("#forma");
 
 formElem.onsubmit = async (e) => {
     e.preventDefault();
-    download();
-    download();
+    await download();
     let response = await fetch('https://formcarry.com/s/jDSMpRR850', {
         method: 'POST',
         body: new FormData(formElem)
     });
     formElem.reset();
     alert("Данные отправлены!");
-    download();
 }
 
 function download(){
