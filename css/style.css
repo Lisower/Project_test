@@ -46,7 +46,7 @@ body {
 
 .modal__box {
     position: relative;
-    max-width: 500px;
+    max-width: 380px;
     padding: 45px;
     z-index: 1;
     margin: 30px 15px;
