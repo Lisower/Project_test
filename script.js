@@ -137,18 +137,19 @@ formElem.onsubmit = async (e) => {
     });
     formElem.reset();
     alert("Данные отправлены!");
+    await response.text();
     download();
 }
 
 function download(){
-      load = document.getElementById("loading-animation");
-      popup = document.getElementsByClassName("popup");
-      if (load.style.display == "none"){
-        popup[0].style.display = "block";
-        load.style.display = "block";
-      }
-      else{
-        popup[0].style.display = "none";
-        load.style.display = "none";
-      }
-    }
+  load = document.getElementById("loading-animation");
+  popup = document.getElementsByClassName("popup");
+  if (load.style.display == "none"){
+    popup[0].style.display = "block";
+    load.style.display = "block";
+  }
+  else{
+    popup[0].style.display = "none";
+    load.style.display = "none";
+  }
+}
