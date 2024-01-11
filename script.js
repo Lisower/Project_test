@@ -130,11 +130,25 @@ const formElem = document.querySelector("#forma");
 
 formElem.onsubmit = async (e) => {
     e.preventDefault();
-
+    download();
     let response = await fetch('https://formcarry.com/s/jDSMpRR850', {
         method: 'POST',
         body: new FormData(formElem)
     });
+    download();
     formElem.reset();
     alert("Данные отправлены!");
 }
+
+function download(){
+      load = document.getElementById("loading-animation");
+      popup = document.getElementsByClassName("popup");
+      if (load.style.display == "none"){
+        popup[0].style.display = "block";
+        load.style.display = "block";
+      }
+      else{
+        popup[0].style.display = "none";
+        load.style.display = "none";
+      }
+    }
