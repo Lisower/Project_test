@@ -942,7 +942,7 @@ width: 100%;
   content: url(img/phone.svg);
   padding-left: 40px;
   position: absolute;
-  left: 60px;
+  left: 48px;
   top: 0;
   width: 24px;
 }
@@ -950,7 +950,7 @@ width: 100%;
   content: url(img/mail.svg);
   padding-left: 40px;
   position: absolute;
-  left: 60px;
+  left: 48px;
   top: 0;
   width: 28px;
 }
