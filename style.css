@@ -967,7 +967,7 @@ width: 100%;
   width: 100%;
   color: white;
 }
-.forma {
+#forma {
   color: white;
   width: 480px;
   max-width: 100%;
@@ -1137,7 +1137,7 @@ width: 100%;
   .form {
       width: 50%;
   }
-  .forma {
+  #forma {
       margin-right: 0;
   }
 }
