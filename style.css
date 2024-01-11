@@ -891,6 +891,58 @@ width: 100%;
   margin-left: 46px;
 }
 
+/* Сustomers (9-ой блок) */
+
+.customers h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.customers-title {
+  color: #505570;
+  font-weight: 500;
+  width: 740px;
+  max-width: 100%;
+  font-size: 16px;
+  padding: 0 15px;
+  margin: 0 auto 20px;
+  line-height: 1.37;
+  text-align: center;
+}
+
+.customers-slide {
+  padding: 5px;
+}
+
+.customers-slide div {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.customers-slide img {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+#wwu-slider-2 .customers-slide {
+  transform: translateX(50%);
+}
+
+@media screen and (min-width: 768px) {
+  .customers h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .customers-title {
+    margin-bottom: 40px;
+  }
+}
+
 /*footer*/
 .footer {
   padding: 36px 0;
