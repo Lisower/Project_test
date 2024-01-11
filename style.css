@@ -628,7 +628,7 @@ nav li{
   width: 250px;
   height: 50px;
   padding: 5px 20px;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 2px;
   border-color: rgba(73, 72, 72, 0.893);
   justify-content: center;
@@ -636,10 +636,11 @@ nav li{
  margin: auto;
 }
 .butpic:hover {
+  cursor: pointer;
   color: #000;
   background-color:rgba(110, 109, 109, 0.893);
   border-color: rgba(73, 72, 72, 0.893);
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 2px;
 }
 
