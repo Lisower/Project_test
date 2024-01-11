@@ -124,3 +124,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const recaptcha = document.querySelector(".g-recaptcha");
   recaptcha.setAttribute("data-theme", "dark");
 });
+
+/*Fetch*/
+const formElem = document.querySelector("#form");
+
+formElem.onsubmit = async (e) => {
+    e.preventDefault();
+
+    let response = await fetch('https://formcarry.com/s/jDSMpRR850', {
+        method: 'POST',
+        body: new FormData(formElem)
+    });
+    formElem.reset();
+    alert("Данные отправлены!");
+}
