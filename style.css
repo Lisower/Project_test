@@ -195,7 +195,7 @@ body {
 }
 
 .header_box > div{ 
-  width: calc(40% - 20px);
+  width: calc(25% - 20px);
   margin: 10px;
   display: inline-flex;
   flex-direction: column;
