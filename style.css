@@ -1,3 +1,59 @@
+#sup:after,
+#tar:after,
+#port:after,
+#rew:after,
+#cont:after {
+  display: none;
+  margin-top: 5px;
+  position: absolute;
+  content: "";
+  height: 3px;
+  background-color: #F14D34;
+  transition: width 0.7s ease;
+  z-index: 5;
+  width: 100%;
+}
+
+#sup:after {
+  width: 130px;
+}
+
+#tar:after {
+  width: 66px;
+}
+
+#rew:after {
+  width: 83px;
+}
+
+#port:after {
+  width: 170px;
+}
+
+#cont:after {
+  width: 78px;
+}
+
+#sup:hover:after,
+#port:hover:after,
+#rew:hover:after,
+#cont:hover:after,
+#tar:hover:after {
+  display: block;
+  transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 @font-face{
   font-family: 'Montserrat';
