@@ -136,8 +136,8 @@ formElem.onsubmit = async (e) => {
         body: new FormData(formElem)
     });
     formElem.reset();
-    download();
     alert("Данные отправлены!");
+    download();
 }
 
 function download(){
