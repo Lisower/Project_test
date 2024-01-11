@@ -1,8 +1,8 @@
-#sup:after,
-#tar:after,
-#port:after,
-#rew:after,
-#cont:after {
+#prodviz:after,
+#proekt:after,
+#podderzka:after,
+#contc:after,
+#rekl:after {
   display: none;
   margin-top: 5px;
   position: absolute;
@@ -14,31 +14,31 @@
   width: 100%;
 }
 
-#sup:after {
+#prodviz:after {
   width: 130px;
 }
 
-#tar:after {
+#proekt:after {
   width: 66px;
 }
 
-#rew:after {
+#contc:after {
   width: 83px;
 }
 
-#port:after {
+#podderzka:after {
   width: 170px;
 }
 
-#cont:after {
+#rekl:after {
   width: 78px;
 }
 
-#sup:hover:after,
-#port:hover:after,
-#rew:hover:after,
-#cont:hover:after,
-#tar:hover:after {
+#prodviz:hover:after,
+#podderzka:hover:after,
+#contc:hover:after,
+#rekl:hover:after,
+#proekt:hover:after {
   display: block;
   transition: 0.4s;
 }
