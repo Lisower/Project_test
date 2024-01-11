@@ -151,3 +151,12 @@ function download(){
     load.style.display = "none";
   }
 }
+
+$(".FAQ h5:first").addClass("active");
+ $(".FAQ p:not(:first)").hide();
+ $(".FAQ h5").click(function () {
+   $(this).next("p").slideToggle("slow")
+     .siblings("p:visible").slideUp("slow");
+   $(this).toggleClass("active");
+   $(this).siblings("h5").removeClass("active");
+ });
