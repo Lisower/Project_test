@@ -152,8 +152,8 @@
     font-size: 20px;
     color: #fff;
   }
-.dropdown-content a:hover {
-    color: rgb(57, 56, 56);
+  .dropdown-content a:hover {
+    background-color: #d73b03; 
   }
   .dropdown-content {
     display: none;
