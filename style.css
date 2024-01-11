@@ -852,7 +852,7 @@ nav li{
 }
 
 .text-slider{
-  position: relative;
+  position: relative;}
 
 .text-slider:before{
   content: url(img/right-quote-sign.svg);
